@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+}
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #333; */    
+    margin-left:20px;
+    padding:20px;
+    width:auto;
+    height:50px;
+}
+  
+  .menu {
+    color: #18A0FB;
+    padding: 0 20px;
+    margin-top:auto;
+    margin-bottom: auto;
+    font-size: 20px;
+  }
+
+  .navbar h1{
+    margin-top:auto;
+    margin-bottom: auto;
+  }
+  
+  .search {
+    color: #18A0FB;
+    margin-top:auto;
+    margin-bottom: auto;
+  }
+  
+  .center h1{
+    margin-bottom: 5px;
+  }
+  
+  .center{
+    width:50%;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;    
+    position: relative;
+    left:130px;
+    top:100px;
+  }
+
+  h1{
+    color: #18A0FB;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-top: 20px;
+  }
+  
+
+
+  input[type="text"] {
+    display: block;
+    width: 60%;
+    height: 30px;    
+    padding: 10px;
+    margin-top: 5px;
+    border:1px solid #18A0FB;
+    border-radius: 10px;
+    color: #C8C8C8;
+  }
+  
+  button {
+    padding: 10px 15px;
+    width:65%;
+    margin-top: 30px;
+    background-color: #18A0FB;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .signup-button {
+    width: 75%;
+    margin-top: 40px;
+    background-color: #34A853;
+    margin-left:0;
+    font-size: 17px;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    padding: 10px;
+    width:auto;
+    height:50px;
+    margin-top: 40px;
+  }
+  
+  .additional-link {
+    color: white;
+    padding: 0 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  
+  .additional-link:hover {
+    text-decoration: underline;
+  }
+  
+  .copyright {
+    color: white ;
+    font-size: 0.8em;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+ .main-content{
+    height:680px;
+ }
+
+ .center p{
+  margin-top: 5px;
+ }
+ 
+ a{
+  color:#18A0FB;
+  margin-top:30px;
+ }
